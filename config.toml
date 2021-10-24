@@ -1,0 +1,31 @@
+baseURL = "http://hannahkloss.com/"
+languageCode = "en-us"
+title = "Hannah Kloss"
+theme = "m10c"
+[related]
+  threshold = 80
+  includeNewer = true
+  toLower = true
+  [[related.indices]]
+    name = "tags"
+    weight = 100
+  [[related.indices]]
+    name = "date"
+    weight = 10
+[params]
+  fullWidthTheme = false
+  centerTheme = true
+  description = "Hiya! I'm a fantasy writer that dedicates free-time to acting on-stage as well as dreaming of being a video game designer. I am pursuing a Bachelor of Arts degree in Computer Science and a Certificate in Game Studies."
+  menu_item_separator = " - "  
+  [[params.social]]
+    icon = "linkedIn"
+    name = "linkedIn"
+    url = "https://www.linkedin.com/in/hannah-kloss/"
+
+ # Red theme
+ [params.style]
+    darkestColor = "#d35050"
+    darkColor = "#353b43"
+    lightColor = "#d6d6d6"
+    lightestColor = "#d3d3d3"
+    primaryColor = "#ffffff"
