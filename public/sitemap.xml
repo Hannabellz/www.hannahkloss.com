@@ -2,10 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.hannahkloss.com/posts/hackathon-project/</loc>
-    <lastmod>2021-11-07T01:22:47-05:00</lastmod>
+    <loc>https://www.hannahkloss.com/tags/blogs/</loc>
+    <lastmod>2021-11-08T16:52:23-05:00</lastmod>
+  </url><url>
+    <loc>https://www.hannahkloss.com/hackathon-blog-post/</loc>
+    <lastmod>2021-11-08T16:52:23-05:00</lastmod>
   </url><url>
     <loc>https://www.hannahkloss.com/</loc>
+    <lastmod>2021-11-08T16:52:23-05:00</lastmod>
+  </url><url>
+    <loc>https://www.hannahkloss.com/tags/</loc>
+    <lastmod>2021-11-08T16:52:23-05:00</lastmod>
+  </url><url>
+    <loc>https://www.hannahkloss.com/posts/hackathon-project/</loc>
     <lastmod>2021-11-07T01:22:47-05:00</lastmod>
   </url><url>
     <loc>https://www.hannahkloss.com/posts/</loc>
@@ -14,14 +23,8 @@
     <loc>https://www.hannahkloss.com/tags/projects/</loc>
     <lastmod>2021-11-07T01:22:47-05:00</lastmod>
   </url><url>
-    <loc>https://www.hannahkloss.com/tags/</loc>
-    <lastmod>2021-11-07T01:22:47-05:00</lastmod>
-  </url><url>
     <loc>https://www.hannahkloss.com/posts/first_project/</loc>
     <lastmod>2021-10-16T00:46:49-04:00</lastmod>
-  </url><url>
-    <loc>https://www.hannahkloss.com/tags/blogs/</loc>
-    <lastmod>2021-10-15T16:07:09-04:00</lastmod>
   </url><url>
     <loc>https://www.hannahkloss.com/posts/debut-post/</loc>
     <lastmod>2021-10-15T16:07:09-04:00</lastmod>
