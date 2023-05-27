@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Hannah Kloss</title>
-    <link>https://www.hannahkloss.com/tags/</link>
-    <description>Recent content in Tags on Hannah Kloss</description>
+    <title>Tags on A Demo Site for TatBanTheme2.0</title>
+    <link>https://www.hannahkloss.com/beholders/posts/tags/</link>
+    <description>Recent content in Tags on A Demo Site for TatBanTheme2.0</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 08 Nov 2021 16:52:23 -0500</lastBuildDate><atom:link href="https://www.hannahkloss.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 17 Aug 2022 01:22:47 -0500</lastBuildDate><atom:link href="https://www.hannahkloss.com/beholders/posts/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Blogs</title>
-      <link>https://www.hannahkloss.com/tags/blogs/</link>
-      <pubDate>Mon, 08 Nov 2021 16:52:23 -0500</pubDate>
+      <title>Projects</title>
+      <link>https://www.hannahkloss.com/beholders/posts/tags/projects/</link>
+      <pubDate>Wed, 17 Aug 2022 01:22:47 -0500</pubDate>
       
-      <guid>https://www.hannahkloss.com/tags/blogs/</guid>
+      <guid>https://www.hannahkloss.com/beholders/posts/tags/projects/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Projects</title>
-      <link>https://www.hannahkloss.com/tags/projects/</link>
-      <pubDate>Sun, 07 Nov 2021 01:22:47 -0500</pubDate>
+      <title>Blogs</title>
+      <link>https://www.hannahkloss.com/beholders/posts/tags/blogs/</link>
+      <pubDate>Mon, 08 Nov 2021 16:52:23 -0500</pubDate>
       
-      <guid>https://www.hannahkloss.com/tags/projects/</guid>
+      <guid>https://www.hannahkloss.com/beholders/posts/tags/blogs/</guid>
       <description></description>
     </item>
     

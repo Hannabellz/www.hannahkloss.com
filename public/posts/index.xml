@@ -1,44 +1,54 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Hannah Kloss</title>
-    <link>https://www.hannahkloss.com/posts/</link>
-    <description>Recent content in Posts on Hannah Kloss</description>
+    <title>Posts on A Demo Site for TatBanTheme2.0</title>
+    <link>https://www.hannahkloss.com/beholders/posts/posts/</link>
+    <description>Recent content in Posts on A Demo Site for TatBanTheme2.0</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 07 Nov 2021 01:22:47 -0500</lastBuildDate><atom:link href="https://www.hannahkloss.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 17 Aug 2022 01:22:47 -0500</lastBuildDate><atom:link href="https://www.hannahkloss.com/beholders/posts/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Human Computer Interaction Project</title>
-      <link>https://www.hannahkloss.com/posts/370-project/</link>
-      <pubDate>Sun, 07 Nov 2021 01:22:47 -0500</pubDate>
+      <title>CSE 370 (Human Computer Interaction) Group Project</title>
+      <link>https://www.hannahkloss.com/beholders/posts/posts/cse370/</link>
+      <pubDate>Wed, 17 Aug 2022 01:22:47 -0500</pubDate>
       
-      <guid>https://www.hannahkloss.com/posts/370-project/</guid>
-      <description>Human Computer Interaction course project</description>
+      <guid>https://www.hannahkloss.com/beholders/posts/posts/cse370/</guid>
+      <description>How swift time can fly when at times you have 3-5 projects going on at once. The Spring &amp;lsquo;22 Semester was one to remember, that was for sure. But looking back on it months later, I am content with all that I managed to do and learn in the process. It may have been a lot at times, but it was beautifully so. The end result of all of the projects is something I am thrilled about, and have been wanting to share through a blog post for quite some time now!</description>
     </item>
+    
+    <item>
+      <title>Hackathon Blog Post</title>
+      <link>https://www.hannahkloss.com/beholders/posts/posts/hackathon-blog-post/</link>
+      <pubDate>Mon, 08 Nov 2021 16:52:23 -0500</pubDate>
+      
+      <guid>https://www.hannahkloss.com/beholders/posts/posts/hackathon-blog-post/</guid>
+      <description>What can be done in 24 hours, or less? Where else would you find a junior in college during the Fall Back dates than in her room, wrapping up a solo game project after fourteen hours straight of looking at a computer screen? It was sometime after 2AM when I called it good so I could rest, but would I do it again? Absolutely. This was my first Hackathon experience, and although I opted to do it remotely, it was still incredible.</description>
+    </item>
+    
     <item>
       <title>Hackathon Project</title>
-      <link>https://www.hannahkloss.com/posts/hackathon-project/</link>
+      <link>https://www.hannahkloss.com/beholders/posts/posts/hackathon-project/</link>
       <pubDate>Sun, 07 Nov 2021 01:22:47 -0500</pubDate>
       
-      <guid>https://www.hannahkloss.com/posts/hackathon-project/</guid>
+      <guid>https://www.hannahkloss.com/beholders/posts/posts/hackathon-project/</guid>
       <description>24 Hour Hackathon</description>
     </item>
     
     <item>
       <title>First_Project</title>
-      <link>https://www.hannahkloss.com/posts/first_project/</link>
+      <link>https://www.hannahkloss.com/beholders/posts/posts/first_project/</link>
       <pubDate>Sat, 16 Oct 2021 00:46:49 -0400</pubDate>
       
-      <guid>https://www.hannahkloss.com/posts/first_project/</guid>
+      <guid>https://www.hannahkloss.com/beholders/posts/posts/first_project/</guid>
       <description>First_Project.html</description>
     </item>
     
     <item>
       <title>Debut Post</title>
-      <link>https://www.hannahkloss.com/posts/debut-post/</link>
+      <link>https://www.hannahkloss.com/beholders/posts/posts/debut-post/</link>
       <pubDate>Fri, 15 Oct 2021 16:07:09 -0400</pubDate>
       
-      <guid>https://www.hannahkloss.com/posts/debut-post/</guid>
+      <guid>https://www.hannahkloss.com/beholders/posts/posts/debut-post/</guid>
       <description>Hello! After being directed to using Hugo for personal website development, I took to the reigns (and online documentation) to get right into creating what would likely become my portfolio. I am interested in &amp;ldquo;complex&amp;rdquo; game design, where my definition is as follows. In an ideal world, there would be sufficient time to make multiple games where the player choice matters. It doesn&amp;rsquo;t just slightly alter dialogue or anything easily missed, or miniscule.</description>
     </item>
     
