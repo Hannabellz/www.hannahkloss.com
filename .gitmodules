@@ -5,3 +5,7 @@
 [submodule "themes/terminal"]
 	path = themes/terminal
 	url = https://github.com/panr/hugo-theme-terminal.git
+
+[submodule "themes/TatBanTheme2.0"]
+	path = themes/TatBanTheme2.0
+	url = https://github.com/tatsatb/TatBanTheme2.0.git
