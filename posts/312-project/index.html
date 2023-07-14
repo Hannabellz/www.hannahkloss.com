@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <title>Web Apps Project // Hannah Kloss</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.88.1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="John Doe" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="https://www.hannahkloss.com/css/main.min.0655c0c018a3d8c360af37fcc5a13d64dae1e12f57879d04443a6f5352ebcf81.css" />
+
+
+
+  </head>
+  <body>
+    <header class="app-header">
+      <a href="https://www.hannahkloss.com/"><img class="app-header-avatar" src="/avatar.jpg" alt="John Doe" /></a>
+      <h1>Hannah Kloss</h1>
+      <p>Hiya! I&#39;m a fantasy writer that dedicates free-time to acting on-stage as well as dreaming of being a video game designer. I am pursuing a Bachelor of Arts degree in Computer Science and a Certificate in Game Studies.</p>
+      <div class="app-header-social">
+        
+          <a href="https://www.linkedin.com/in/hannah-kloss/" target="_blank" rel="noreferrer noopener">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-link">
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+</svg>
+          </a>
+        
+      </div>
+    </header>
+    <main class="app-container">
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class ="post-title">Web Apps Project</h1>
+      <div class="post-meta">
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
+  <title>calendar</title>
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
+</svg>
+          July 14, 2023
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-clock">
+  <title>clock</title>
+  <circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>
+</svg>
+          10 min read
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
+  <title>tag</title>
+  <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7.01" y2="7"></line>
+</svg>
+              <a class="tag" href="https://www.hannahkloss.com/tags/projects/">Projects</a>
+        </div>
+      </div>
+    </header>
+    <div class="post-content">
+      <p>Although I wanted to get this out a year ago, the other group project I wished to discuss from my Spring ‘22 semester was a result of CSE 312 Web Applications. While the one I talked about in <a href = “https://www.hannahkloss.com/posts/370-project/”> this blog </a> had a focus on front-end, this one focused on back-end. We covered topics in individual homework such as security, sending the different response codes based on if it was a valid link, and even some live chat.</p> 
+
+<p>Even the homework was enjoyable—and I would be the one to find and point out an interesting point that would go on to be something directly clarified by the instructor in later semesters. We were going over WebSocket features and handling messages of different sizes—those over 131000 bytes end up being sent over multiple frames in Chrome. This wasn’t recognized before this point as I was testing my implementation of things, and in the very least I know I managed to save someone’s time.</p> 
+
+<p>While we had these assignments to solve, partway through the semester we started on a group project. There were some requirements that we had to meet, such as using a Web Framework (we ended up utilizing Flask) so we would get practice writing up documentation of the use, having user accounts, users being able to see data for other users...But other than the few guidelines, we had a lot of open space to work with. So we decided to go above and beyond. </p> 
+
+<p>Even if it wasn’t a front-end focused class, we wanted it to look presentable. Something that could be enjoyed even out of class. We decided to take the lovely original Pong and add a twist to it. Pulsar’s Produce Pong is where you compete to make the best dishes, and you get achievements for the dishes you succeed in making as well. </p> 
+
+<p>I did art other than the ones made for the ingredients, implemented altering the profile picture and the relevant error handling, worked on the achievements display, and dedicated time to ensure a thorough run-through of how Flask worked: at what level it did what we had learned how to do in class.</p> 
+
+<p>The overall result can currently be found <a href = “https://producepong.com/”> here </a>. But if you would just like a walkthrough, here it is! Starting with the landing page.</p> 
+
+<img src = "/public/CSE%312%Images/Homepage.png" width = "500" height = "250"> 
+
+<p>If you hit “Play” from here, you are brought to </p> 
+
+<img src = "/public/CSE%312%Images/SignIn.png" width = "500" height = "250"> 
+
+<p>Whether you’re a new or returning user, you’re able to use the same form! It’ll let you know if a username is taken. </p> 
+
+<p>You’ll be greeted by a warm welcome message, and then it is up to you where you end up going! You can check out the team behind the site by going to Contact </p> 
+
+<img src = "/public/CSE%312%Images/ContactPage.png" width = "500" height = "250"> 
+
+<p>Or you can check out your profile page—it will likely be pretty bare bones at first.</p> 
+
+<img src = "/public/CSE%312%Images/ProfileNoAch.png" width = "500" height = "250"> 
+
+<p>But if you want to try for a different random default picture, or even update one you have on hand yourself, you can do that any time when you have an account!</p> 
+
+<img src = "/public/CSE%312%Images/ProfileChangePic.png" width = "500" height = "250"> 
+
+<p>Say that you’re ready for the real action...Click on the logo in the top left corner, and you’re brought to the Chat. In this case, “new” has selected the user “hannabellz” to start chatting with the competition.</p> 
+
+<img src = "/public/CSE%312%Images/ChatSent.png" width = "500" height = "250"> 
+
+<p>And hannabellz gets notified that they have a message!</p> 
+
+<img src = "/public/CSE%312%Images/ChatReceived.png" width = "500" height = "250"> 
+
+<p>When either one hits the “Play Pong” button, an invitation is sent out! </p> 
+
+<img src = "/public/CSE%312%Images/PongInvite.png" width = "500" height = "250"> 
+
+<p>Both players are led to this screen.</p> 
+
+<img src = "/public/CSE%312%Images/WaitToPressKey.png" width = "500" height = "250"> 
+
+<p>And as soon as both press their readied up keys, the game begins! While the game is in motion, there will always be an ingredient at the top that is being vied for during the particular round. </p> 
+
+<img src = "/public/CSE%312%Images/CurrentIngredient1.png" width = "500" height = "250"> 
+
+<img src = "/public/CSE%312%Images/CurrentIngredient2.png" width = "500" height = "250"> 
+
+<p>While at the bottom of the screen, the ingredients that each player has is being kept track of.</p> 
+
+<img src = "/public/CSE%312%Images/IngredientsShot1.png" width = "500" height = "250"> 
+
+<img src = "/public/CSE%312%Images/IngredientsShot2.png" width = "500" height = "250"> 
+
+<p>As soon as BOTH players have ingredients to make at least one recipe, the game halts. The winner is declared based on the recipes made. If you could’ve made multiple, the best recipe is the one counted for you.</p> 
+
+<p>You see the final list of ingredients.</p> 
+
+<img src = "/public/CSE%312%Images/FinalIngredients.png" width = "500" height = "250"> 
+
+<p>But at the top of it all...is where the Winner is declared.</p> 
+
+<img src = "/public/CSE%312%Images/WinScreen.png" width = "500" height = "250">
+    </div>
+    <div class="post-footer">
+      
+    </div>
+    <div class="related-posts">
+      <h5>Related Posts</h5>
+      
+      <ol class = "post-list">
+        <li class= "post-stub">
+          <a href="https://www.hannahkloss.com/posts/370-project/">
+            <h5 class="post-stub-title">CSE 370 Human Computer Interaction Project</h5>
+          </a>
+        </li>
+      </ol>
+      
+    </div>
+  </article>
+
+    </main>
+  </body>
+</html>
