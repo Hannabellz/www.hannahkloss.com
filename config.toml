@@ -15,7 +15,7 @@ theme = "m10c"
 [params]
   fullWidthTheme = false
   centerTheme = true
-  description = "Hiya! I'm a fantasy writer that dedicates free-time to acting on-stage as well as dreaming of being a video game designer. I am pursuing a Bachelor of Arts degree in Computer Science and a Certificate in Game Studies."
+  description = "Hiya! I&#39;m a fantasy writer who dedicates my free time to acting on stage. I graduated from the University at Buffalo with a Bachelor of Arts degree in Computer Science and a Certificate in Game Studies and am now pursuing a career in telling stories through video games."
   menu_item_separator = " - "  
   [[params.social]]
     icon = "linkedIn"
