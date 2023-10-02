@@ -37,6 +37,9 @@ input.playbutton{
     width: 100%;
   }
 }
+h1{
+  font-size: 1.25em;
+}
 h1,h2,h3,h4,h5,h6{color:#d3d3d3}a{color:#fff;transition:color .35s;text-decoration:none}a:hover{color:#d3d3d3}code{font-family:monospace,monospace;font-size:1em;color:rgba(214,214,214,.8)}pre{font-size:1rem;line-height:1.2em;margin:0;overflow:auto}pre code{font-size:.8em}::selection{background:rgba(214,214,214,.25)}::-moz-selection{background:rgba(214,214,214,.25)}
 .app-header{padding:2.5em;background:#d35050;text-align:center}
 .app-header-avatar{width:15rem;height:15rem;border-radius:100%;border:.5rem solid #fff}
