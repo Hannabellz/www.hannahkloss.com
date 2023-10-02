@@ -1,6 +1,6 @@
 baseURL = "https://www.hannahkloss.com/"
 languageCode = "en-us"
-title = "Hannah Kloss"
+title = "Hannah Kloss-Gleason"
 theme = "m10c"
 [related]
   threshold = 80
