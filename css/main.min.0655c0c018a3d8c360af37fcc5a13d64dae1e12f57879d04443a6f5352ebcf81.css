@@ -16,6 +16,11 @@ div.desc {
   float: left;
   width: 24.99999%;
 }
+.group {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
 input.playbutton{
   width: 100%;
   height: 40px;
