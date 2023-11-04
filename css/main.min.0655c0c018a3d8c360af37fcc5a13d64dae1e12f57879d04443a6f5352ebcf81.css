@@ -30,6 +30,15 @@ input.playbutton{
   cursor:pointer;
   text-wrap:wrap;
 }
+input.halfbutton{
+  width: 50%;
+  height: 40px;
+  background-color: #d35050;
+  color: #d6d6d6;
+  font-weight: bold;
+  cursor:pointer;
+  text-wrap:wrap;
+}
 
 @media only screen and (max-width: 700px) {
   .responsive {
