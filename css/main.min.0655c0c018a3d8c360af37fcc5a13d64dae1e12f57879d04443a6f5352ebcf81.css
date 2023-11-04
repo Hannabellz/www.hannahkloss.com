@@ -31,7 +31,7 @@ input.playbutton{
   text-wrap:wrap;
 }
 input.halfbutton{
-  width: 50%;
+  width: calc(50%-4px);
   height: 40px;
   background-color: #d35050;
   color: #d6d6d6;
