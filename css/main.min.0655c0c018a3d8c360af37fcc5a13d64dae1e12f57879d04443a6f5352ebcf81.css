@@ -29,7 +29,7 @@ input.playbutton{
   font-weight: bold;
   cursor:pointer;
   text-wrap:wrap;
-  border-radius:0px;
+  -webkit-border-radius:0px;
 }
 input.halfbutton{
   width: calc(50% - 4px);
@@ -39,7 +39,7 @@ input.halfbutton{
   font-weight: bold;
   cursor:pointer;
   text-wrap:wrap;
-  border-radius:0px;
+  -webkit-border-radius:0px;
 }
 
 @media only screen and (max-width: 700px) {
