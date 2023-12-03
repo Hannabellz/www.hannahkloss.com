@@ -29,6 +29,7 @@ input.playbutton{
   font-weight: bold;
   cursor:pointer;
   text-wrap:wrap;
+  display:block;
 }
 input.halfbutton{
   width: calc(50% - 4px);
@@ -38,6 +39,7 @@ input.halfbutton{
   font-weight: bold;
   cursor:pointer;
   text-wrap:wrap;
+  display:block;
 }
 
 @media only screen and (max-width: 700px) {
