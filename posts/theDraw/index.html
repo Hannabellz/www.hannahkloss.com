@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <title>The Draw // Hannah Kloss-Gleason</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.88.1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="John Doe" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="https://www.hannahkloss.com/css/main.min.0655c0c018a3d8c360af37fcc5a13d64dae1e12f57879d04443a6f5352ebcf81.css" />
+
+
+
+  </head>
+  <body>
+    <header class="app-header">
+      <a href="https://www.hannahkloss.com/"><img class="app-header-avatar" src="/avatar.jpg" alt="John Doe" /></a>
+      <h1>Hannah Kloss-Gleason</h1>
+      <p>Hiya! I&#39;m a fantasy writer who dedicates my free time to acting on stage. I graduated from the University at Buffalo with a Bachelor of Arts degree in Computer Science and a Certificate in Game Studies and am now pursuing a career in telling stories through video games.</p>
+      <div class="app-header-social">
+        
+          <a href="https://www.linkedin.com/in/hannah-kloss/" target="_blank" rel="noreferrer noopener">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-link">
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+</svg>
+          </a>
+        
+      </div>
+    </header>
+    <main class="app-container">
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class ="post-title">The Draw</h1>
+      <div class="post-meta">
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
+  <title>calendar</title>
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
+</svg>
+          December 2, 2023
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-clock">
+  <title>clock</title>
+  <circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>
+</svg>
+          12 min read
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
+  <title>tag</title>
+  <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7.01" y2="7"></line>
+</svg>
+              <a class="tag" href="https://www.hannahkloss.com/tags/blogs/">Blogs</a>
+        </div>
+      </div>
+    </header>
+    <div class="post-content">
+<p>The excitement that came with having a class focused around learning and using the Unreal Engine was everything you may expect it to be, especially from someone who wants to make video games for a living. I still remember the day another professor of mine told me about it being offered the following fall semester—what would be my last fall semester for my bachelor’s in computer science.</p>
+<p>Fifteen weeks is inevitably not a lot of time to cover material, and even less when it comes to something as broad as making games. The first bit was spent covering some of the basics, with weekly lab assignments where we were encouraged to look up online resources to expand on what we were learning in class. At some point midsemester, we were told to prepare three game ideas to each present to the rest of the class, so that we could form into groups and choose what we wanted to work on for the rest of the semester.</p>
+<p>Long story short, I along with two others, decided to work on our own card game. What started as a multiple mini-game-esque game turned into one focused around the luck the Fates decided to put into your cards, as well as a bit of strategy. You read that right, the Fates, as in the ones in Greek mythology. Your opponent is one of the gods, who will occasionally make moves to try to slow you down from your victory. You have a set amount of turns to destroy them, or destroy your life in a loss. When the enemy god’s HP gets low enough, an extra challenge is thrown into the mix. They get more aggressive, and give you some sort of debuff. In the example video, this equated to me only being able to play one card at a time toward the end.</p>
+<p>Of course, thinking back on it now, I can think of so many ways to optimize on what was done at the time. It was all of our first time with Unreal, though, and a year of hindsight since that point can do that to you. For instance, something that likely doesn’t help the game’s runtime is the constant event tick checking for the game over condition. I know better ways to signal that and to have multiple pieces communicate with one another without that event tick, and how to actually split that up properly into multiple pieces so there isn’t just one actor with a hefty blueprint.</p>
+<p>As can be seen from the post-mortem that served as the final thing we had to do for class, we couldn’t fit in everything we had expected to from the beginning. Deadlines are deadlines are deadlines…But the end result was something all of us could have a sense of pride in. It wrapped up quite nicely, and the game itself served as reason enough for me to continue learning about Unreal, which I don’t think would’ve happened if not for the class. Or at least, it would’ve been a longer time coming.</p>
+<p>Funnily enough for this project, I took more of a lead with the artistic angle of things. I wrote both versions of the music, one being the “normal” that plays for most of the game, and the other being the “intense” that plays when victory could be in reach. I designed all of the cards and even had a bit of fun voice acting the lines for the enemy gods. In my other projects since then, I’ve taken on the programming front, although I enjoyed this project for the opportunities it gave to learn more than just programming. I found out how to handle audio, where to find the settings that were a bit more hidden, and had an introduction to making animations that I don’t believe I would’ve in another group.</p>
+<iframe
+	src="PostMortem.pdf#toolbar=0"
+	width="100%"
+	height="100%"
+	style="border:none"
+></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/B3P8Kn5KzoU?si=2jY3lWwIQWH0uyWQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+  </article>
+
+    </main>
+  </body>
+</html>
