@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <title>Nyx // Hannah Kloss-Gleason</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.88.1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="John Doe" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="https://www.hannahkloss.com/css/main.min.0655c0c018a3d8c360af37fcc5a13d64dae1e12f57879d04443a6f5352ebcf81.css" />
+
+
+
+  </head>
+  <body>
+    <header class="app-header">
+      <a href="https://www.hannahkloss.com/"><img class="app-header-avatar" src="/avatar.jpg" alt="John Doe" /></a>
+      <h1>Hannah Kloss-Gleason</h1>
+      <p>Hiya! I&#39;m a fantasy writer who dedicates my free time to acting on stage. I graduated from the University at Buffalo with a Bachelor of Arts degree in Computer Science and a Certificate in Game Studies and am now pursuing a career in telling stories through video games.</p>
+      <div class="app-header-social">
+        
+          <a href="https://www.linkedin.com/in/hannah-kloss/" target="_blank" rel="noreferrer noopener">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-link">
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+</svg>
+          </a>
+        
+      </div>
+    </header>
+    <main class="app-container">
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class ="post-title">Nyx</h1>
+      <div class="post-meta">
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
+  <title>calendar</title>
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
+</svg>
+          February 22, 2024
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-clock">
+  <title>clock</title>
+  <circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>
+</svg>
+          12 min read
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
+  <title>tag</title>
+  <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7.01" y2="7"></line>
+</svg>
+              <a class="tag" href="https://www.hannahkloss.com/tags/blogs/">Blogs</a>
+        </div>
+      </div>
+    </header>
+    <div class="post-content">
+<p>Shortly after the Fourth of July, 2023, I joined a new game development team taking form in InOrbit Systems. An opportunity based all around getting experience and people coming together to see a concept take form from the ground up- and an opportunity I am grateful for.</p>
+<p>You play as a cat making your way from level to level in this demo, evading the evil scientists for long enough to make it to the next area. I was a part of the programming team where we'd have weekly meetings over Discord to give updates on our assigned tasks and progress. And when others started to go back to school, I got the chance to help see the game through to this release and help with the finishing touches since I had graduated from college the May before.</p>
+<p>Some of the tasks I took on consisted of the dodge mechanic, pushable boxes, the ability to reset the character should those boxes be suck in a position that would soft lock the character, and the game instance to help keep track of lives and collectibles between levels. Not only did I have to work with the character and level blueprints, but there were some eidts to animations and widget blueprints for me to handle as well to ensure things were working as intended.</p>
+<p>For instance, we wanted to make sure that the player wouldn't just be able to reset to their last checkpoint whenever it was purely convenient for them. There weren't many places in the demo for a soft lock to be possible- just when it came to a pushable crate- and just in corners where it couldn't be pushed out from once set there.</p>
+<p>So, I created an actor that consistent of a collision box that would detect when a pushable crate began and ended its overlap with the collision box. If after a few seconds the crate was still inside (checking a Boolean value), then the prompt to reset would appear above the player. If at any point, whether during or after those seconds pass, the crate manages to be removed from the collision box (updating the aforementioned Boolean value), the prompt will either go away or not appear at all. And the player will not be able to reset at that point.</p>
+<p>As for the lives and the collectibles from level to level, they were last miniute additions to the demo. I volunteered to do it even as it wasn't deemed necessary because I had looked into how to do it for a school project during my final semester. Put simply, you end up making your own game instance, placing it into the settings of your game, and initializing the variables you'll keep track of will be in the game instance.</p>
+<p>What I did in this particular game is set the variables to their default value in the game instance, meaning 9 for lives and 0 for collectibles. At the start of each level, I would get the game instance, cast it to the one I had made, so that I could get the values of the variables stored and set the variables in the PLAYER'S blueprint to those values. As the level is progressed through, any decrease of lives or increase of collectibles would be done in the player blueprint. Once the player reached the end of a level, I would update the values within the game instance to be the values of the ones in the player blueprint. Then, when the next level began, the process would start again.</p>
+<p>Below is a part of the demo to help with visualizing what was put to words!</p>
+      <iframe width="100%" height="400" src="https://www.youtube.com/embed/JHT-n8SCpoM?si=EJnDtAEFAEC8ONs_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+  </article>
+
+    </main>
+  </body>
+</html>
