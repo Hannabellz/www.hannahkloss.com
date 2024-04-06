@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <title>Nyx // Hannah Kloss-Gleason</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.88.1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="John Doe" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="https://www.hannahkloss.com/css/main.min.0655c0c018a3d8c360af37fcc5a13d64dae1e12f57879d04443a6f5352ebcf81.css" />
+
+
+
+  </head>
+  <body>
+    <header class="app-header">
+      <a href="https://www.hannahkloss.com/"><img class="app-header-avatar" src="/avatar.jpg" alt="John Doe" /></a>
+      <h1>Hannah Kloss-Gleason</h1>
+      <p>Hiya! I&#39;m a fantasy writer who dedicates my free time to acting on stage. I graduated from the University at Buffalo with a Bachelor of Arts degree in Computer Science and a Certificate in Game Studies and am now pursuing a career in telling stories through video games.</p>
+      <div class="app-header-social">
+        
+          <a href="https://www.linkedin.com/in/hannah-kloss/" target="_blank" rel="noreferrer noopener">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-link">
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+</svg>
+          </a>
+        
+      </div>
+    </header>
+    <main class="app-container">
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class ="post-title">SURF 'N TURF</h1>
+      <div class="post-meta">
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
+  <title>calendar</title>
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
+</svg>
+          April 6, 2024
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-clock">
+  <title>clock</title>
+  <circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>
+</svg>
+          12 min read
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
+  <title>tag</title>
+  <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7.01" y2="7"></line>
+</svg>
+              <a class="tag" href="https://www.hannahkloss.com/tags/blogs/">Blogs</a>
+        </div>
+      </div>
+    </header>
+    <div class="post-content">
+<p>On my road to building a portfolio, one of the highly recommended things was to participate in game jams. They help to see what you can do in a group, in a shorter amount of time, or even possibly both at once! I had been meaning to participate in some before, but the closest I got until graduating college was my school’s hackathons hosted in the fall semester (with the exception of one year having one hosted in the spring as well). </p> 
+<p>But of course, this post wouldn’t exist if that was all there was to say about it. To put it shortly—I've officially participated in two game jams. One working with a group that wanted to use Unity (offering up an extra bit of challenge and learning since I do not work with it in comparison to Unreal) with the theme of divergence and <a href="https://www.hannahkloss.com/posts/Capped/">the other</a> focused on what you could make in a couple of weeks all by yourself with the theme of aberration.</p> 
+<p>Each of these offered something different for me. The most prevalent thing is group work with strangers I hadn’t met before versus us self work, something I am fairly familiar with. Being in a group is extra nice when all participants are passionate about what they’re making, which luckily was the case for me. We were able to set up a meeting time for most people to join a Discord call and settle on our idea and who would start by doing what. The other programmer on the team had more experience with Unity and working on rhythm games in it (ah yes, did I forget to mention this Game Jam was one for rhythm games?) so that’s how we settled on that. While they got to work with figuring out how to make the timing of notes work, our composers got to work with a song, our artists started the character and background designs, I took on looking into a few vital things for what we wanted the result to be.</p> 
+<p>With divergence as the theme, the first thought we had was it being a split-screen game. There were technically two player-controlled characters, but only one would be controlled at a time. The screen that wasn’t being controlled would be darkened a bit so the player would know which one to focus on—but part of the challenge was the player would be the one deciding which side of the screen to controll with the click of their left-shift key. Something I ended up adding in after further communication as to the desired effect would be after the player went right or left in the three-lane screen, they would automatically return to center. This would become more important visually when the art came into play.</p> 
+<p>Most of my work was done in the first few days. I used the basic 2D shapes as placeholders for the characters; having two cameras to take up percentages of the viewport made the split screen easily enough (you can have a black bar in between the two just by making them have less than 50/50); having three set “lanes” that the character had to stay in was quick with min and max functions that made it impossible to go into a nonexistent fourth lane; and the fading in and out of a particular side was done with a Camera Effect and messing around with the settings of a shader.</p> 
+      <p>By the way, I would suggest playing with one hand focused on pressing shift while the other hand focuses on tilting the character left/right.</p>
+      <iframe width="100%" height="400" src="https://www.youtube.com/embed/Zh53nt8umyo" title="Surf &#39;N Turf Easy Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+  </article>
+
+    </main>
+  </body>
+</html>
