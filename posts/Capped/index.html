@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <title>Capped // Hannah Kloss-Gleason</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.88.1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="John Doe" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="https://www.hannahkloss.com/css/main.min.0655c0c018a3d8c360af37fcc5a13d64dae1e12f57879d04443a6f5352ebcf81.css" />
+
+
+
+  </head>
+  <body>
+    <header class="app-header">
+      <a href="https://www.hannahkloss.com/"><img class="app-header-avatar" src="/avatar.jpg" alt="John Doe" /></a>
+      <h1>Hannah Kloss-Gleason</h1>
+      <p>Hiya! I&#39;m a fantasy writer who dedicates my free time to acting on stage. I graduated from the University at Buffalo with a Bachelor of Arts degree in Computer Science and a Certificate in Game Studies and am now pursuing a career in telling stories through video games.</p>
+      <div class="app-header-social">
+        
+          <a href="https://www.linkedin.com/in/hannah-kloss/" target="_blank" rel="noreferrer noopener">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-link">
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+</svg>
+          </a>
+        
+      </div>
+    </header>
+    <main class="app-container">
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class ="post-title">Capped</h1>
+      <div class="post-meta">
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
+  <title>calendar</title>
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
+</svg>
+          April 6, 2024
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-clock">
+  <title>clock</title>
+  <circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>
+</svg>
+          18 min read
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
+  <title>tag</title>
+  <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7.01" y2="7"></line>
+</svg>
+              <a class="tag" href="https://www.hannahkloss.com/tags/blogs/">Blogs</a>
+        </div>
+      </div>
+    </header>
+    <div class="post-content">
+<p>What does it mean to be focused on a team of one and thus, displaying all of what a singular person can do within the span of a couple of weeks? The nice thing about working alone is a sense of control, knowing your bounds, some of the strengths you can play with. It’s also good because there’s a significantly lower chance of miscommunications—and being able to push your own bounds without slowing the progress of other people...Yet you are a one-person team, and you could be surprised where control can still be a bit lacking.</p> 
+<p>For those who aren’t privy to the definition of aberration, it is a departure from what is normal, usual, or expected, typically one that is unwelcome. That unwelcome part is pretty...important, as well as this concept just being generally abnormal. My goal for this game jam was to make a game where player’s choice mattered—specifically their choice in dialogue. I used Unreal, and did you know just how amazing Data Tables are for this kind of thing?</p> 
+      <p>You can think of Data Tables as your typical tables you’ve seen in sheets and documents, where you can define what kind of information to store in each column for each row. Here’s a simplified example of what one of my rows would look like for this game, in correspondence to what they would represent.
+<table>
+  <tr>
+    <th>Current Row # </th>
+    <th>Current NPC Dialogue</th>
+    <th>Option A Dialogue </th>
+    <th>Option B Dialogue</th>
+    <th>Option A Row # </th>
+    <th>Option B Row # </th>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>"Hello there."</td>
+    <td>"Hi."</td>
+    <td>"..."</td>
+    <td>4</td>
+    <td>5</td>
+  </tr>
+</table>
+The NPC would display saying "Hello there." The player would see both options A and B for them to select from. If A ("Hi.") is selected, I had it programmed to go to the row with a Current Row Number of 4, where it would display the NPC’s response and continue this cycle all the way to the end of the day.</p>
+      <p>If it had been just a matter of dialogue and responses like this, that would leave a lot of room for the remainder of those two weeks, right? Aha, but when is it ever that easy?</p> 
+<p>Remember that "unwelcome" feel that I was meant to be going for? That, combined with the fact I LOVE storytelling and worldbuilding, led to a goal of a lot of writing. Which...can be easy to get writer’s block even with a deadline, apparently, since most of this work would actually be done in the last few days. To be clear, I am and have always been an anxious person, far from procrastinating on projects with deadlines. I am more often the one to be constantly working on something from the day a task is released and until I get it done (as can be seen in the group work for the Rhythm Game Jam). But even though I knew the general arc this story would take and what endings I wanted to have, it was still a matter of getting there. And coming up with the content I’d be happy with to get there. And coming up with the content that would make sense in the world I am trying to gradually create across a number of games. And coming up with the content that would be different enough that different dialogue could be seen, from the actual branches to smaller details based on some selections here and there. (You get the point. I also didn’t want to generate any of this prior to the game jam’s start date because I figured that would qualify as something you’d aim for doing in that short span of time, but that may be a misunderstanding on my part?)</p> 
+<p> In short, narrative ended up being the bulk of this game. The little animations and achievement drawings I did were fun, the programming was pretty straightforward with the exception being those smaller details I mentioned, but still not too bad. But the narrative...I did it all in Twine at first (definitely recommend for something like this, just to let it be known), and I had 189 passages, some definitely longer than others. I had a BLAST, let it be known, but had that been the intended at the start of those two weeks? Not by a longshot. It just sort of...happened. </p> 
+<p>"What was this unwelcome story that you were trying to tell?" Well. I won’t disclose all of the lore I have set in stone (at least, not yet), but the title of the game is Capper. I didn’t know until writing the dialogue that Oxford Dictionary had this definition of the word which is admittedly fitting in its own right: a more surprising, upsetting, or entertaining event or situation than all others that have gone before.</p> 
+<p>A while ago, off a whim, I had the concept of a being that stole people’s kneecaps. Yes, you read that right. As would be seen in dialogue, though, no one really dies from having their kneecaps stolen. That isn’t the end goal for the perpetrator. In truth, they can be thought of as...biding their time. (some spoilers ahead!)</p> 
+<p> In the world I’ve been building from the ground up, mostly unseen as far as my portfolio goes for the time being, it can be described as a world similar to the one we know, but with supernatural/paranormal things being seen as common. Whether it be vampires and shapeshifters or psychics and ghosts with some kind of power hierarchy between entities...that’s the thing to know outright.</p> 
+<p>This Capper-being can be thought of as an entity decently high up in this power hierarchy. A possible equivalent for those that have seen the show Supernatural would be like Azazel, higher up than the more common demons seen around but not the overall leader. They can also be thought of like some other mythologies where some kind of offering is made to appease someone. In this case, the offering is kneecaps. And rather than it being offered up, the being just goes around taking some. </p> 
+<p>But not...forever? The Capper is looking for their "proper vessel" to walk around in. They’re able to "possess" anyone, technically, but they need extra support to last when occupying most. If/when they find the right one, they’re able to exist just fine, sustaining without stealing anything from anyone. </p> 
+<p>One of my friends who ended up playing it said it best in mentioning that some of their dialogue is more silly off-putting than directly threatening (most of the time), and that’s what the soul idea was when I first thought of the character long before considering this game. Definitely off-putting and makes you go "eeeeh," but never meant to be a true evil. </p> 
+<p>Transporting the dialogue from Twine to Unreal in the format I wanted definitely took...a while, and there’s likely a way of making that smoother for the next time around I do something like this. But learning how to work with the Data Tables, seeing them kind of like structs in C, connecting them to a widget blueprint to be iterated through, and dipping my toes into sprite animation was such a fun time in the end. </p> 
+      <p>Here's just a quick showing of one path to take for the first 2 out of the 3 days...I'll leave the achievements up to you to discover.</p>
+      <iframe width="100%" height="400" src="https://www.youtube.com/embed/QINRTOMcZeU" title="Capper Demo (Day 1 and 2)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+  </article>
+
+    </main>
+  </body>
+</html>
