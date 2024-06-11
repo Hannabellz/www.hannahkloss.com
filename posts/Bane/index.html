@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <title>Bane of Blackmore // Hannah Kloss-Gleason</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.88.1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="John Doe" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="https://www.hannahkloss.com/css/main.min.0655c0c018a3d8c360af37fcc5a13d64dae1e12f57879d04443a6f5352ebcf81.css" />
+
+
+
+  </head>
+  <body>
+    <header class="app-header">
+      <a href="https://www.hannahkloss.com/"><img class="app-header-avatar" src="/avatar.jpg" alt="John Doe" /></a>
+      <h1>Hannah Kloss-Gleason</h1>
+      <p>Hiya! I&#39;m a fantasy writer who dedicates my free time to acting on stage. I graduated from the University at Buffalo with a Bachelor of Arts degree in Computer Science and a Certificate in Game Studies and am now pursuing a career in telling stories through video games.</p>
+      <div class="app-header-social">
+        
+          <a href="https://www.linkedin.com/in/hannah-kloss/" target="_blank" rel="noreferrer noopener">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-link">
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+</svg>
+          </a>
+        
+      </div>
+    </header>
+    <main class="app-container">
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class ="post-title">Bane of Blackmore</h1>
+      <div class="post-meta">
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
+  <title>calendar</title>
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
+</svg>
+          June 11, 2024
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-clock">
+  <title>clock</title>
+  <circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>
+</svg>
+          15 min read
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
+  <title>tag</title>
+  <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7.01" y2="7"></line>
+</svg>
+              <a class="tag" href="https://www.hannahkloss.com/tags/blogs/">Blogs</a>
+        </div>
+      </div>
+    </header>
+    <div class="post-content">
+<p>From May 30th, 2024 at 6:00PM to June 3rd, 2024 at 11:59PM, I participated in the Indie Game Academy's Founder's Jam. The goal was to make a game within that time span, and the Friday that followed would hold the pitches for the games that wished to participate. Little did I know that there would be BIG goals to be completed in those few days, where I would work in a team consisting of 26 people- producers, artists, voice actors, programmers, sound designers, composers, narrative and general designers- we had a lot of moving pieces split up among us.</p>
+<p>I had the opportunity to both learn and use what I have learned in other game jams with the tasks assigned to me. There would be three main ghost orbs and a fourth one responsible for summoning the final boss. It was up to me to set it up so that each would play their corresponding dialogue and to set up the summoning UI so that you could only choose three different items that you had collected along the way.</p>
+<p>There would be things that got added to these tasks- both during and afterwards (since we wanted to polish and get things to a happy place before sealing it with that satisfying "Complete")- and it has to be said. This game jam will be a particularly difficult one to beat out in my books. I still get thrilled thinking about how I got to be part of making this game, and in such a short span of time too!</p>
+<p>Bane of Blackmore was an ambitious project that consists of resource-gathering, combat, and problem solving for the player to successfully reach the end. There were some unanticipated twists and turns that made it even more ambitious in the timeframe. Although this was done mostly using Unreal's Blueprints, there was a programmer with preference to C++, so some of us had to go in to make changes to that as it came along. And so we had to make sure people knew when to rebuild the project from Visual Studio, considering that's what was necessary to get those changes for the blueprints to properly reference them. Using Git also proved to be an oddity Sunday night, where some LFS files were remaining more as pointer literals and could not be restored aside from past versions of the project. I did discover at some point on Monday, when it happened again, that it was because for some reason when someone was merging branches, there was a dash getting added after what was meant to be the actual size of the file.</p>
+<p>At least, prior to that, I had most of my work set. As stated before, I was in charge of incorporating the three ghost orbs' interactions with the player, and the prelude of the boss fight. I got to use Data Tables for the conversations, which were responsible for keeping track of what was being said, who was saying it, and (added later) the audio file with the corresponding line. After the riddle was spoken, there would be an animation played, a sound played, and updates made to the player's UI and journal. These elements were done by other members of the team, of course, making it as simple as calling the correct functions when they were set in place.</p>
+<p>Summoning the big bad had a little more complexity to it, though. Before dialogue could start playing, as was the default for the others, there had to be UI that consisted of each item that a player picked up. The player could click any of the items that they had, and so long as there were three different ones selected, a summoning button would appear. If the three correct ones were selected, the boss would be there. Otherwise, ghosts were spawned instead. I learned about the niceness of disabling buttons, especially since there is an explicit style for them, meaning you can have them be grayed out without making different assets for it. It was also a nifty thing to just be able to set one button's style to another, which greatly helped out when placing the three selected items into their own set of buttons, which when clicked would "unselect" them.</p>
+<p>When Monday rolled around and my things had been set in place, I was tasked with doing some things that helped with the feel of the game. This included items like adding the main menu music, fading out from the main menu and fading in to the start of the game, handling the damaging fog (and when it wouldn't damage the player), and some more of the audio from the stellar voice actors based on some specific triggers.</p>
+<p>We managed to get a submission up before the deadline, and although the game may have been far from perfect (and admittedly unbeatable for a few different reasons), a lot of the elements had come ALIVE right before our very eyes. And it was so incredible to see what we could pull off, even with issues that came and went. There was no doubt that everyone that could be there wanted to see this through.</p>
+<p>And that still stands today, as we are still doing bits and pieces of polishing. We want this to be properly "finished." Since the official end of the game jam, I have helped figure out why any combat in the crypt wasn't working (attacks from the player used ray tracing, we had our purple fog that just had to not impact ray tracing), paused the enemies when dialogue starts, made lightable torches for the player to interact with, and figured out some lighting weirdness, among other things. This is simply a project that I am content with putting on my portfolio because it is a project I am content with.</p>
+<p>If you have Windows, I highly suggest checking it out for yourself. I hope you enjoy! The goal is to have the final version up by the end of the month at the latest.</p>
+      <iframe width="100%" height="400" src="https://www.youtube.com/embed/7tMfhJ7SXMU?si=DDwsdPv0EeMYhZ9X" title="Bane of Blackmore Sneak Peek" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+  </article>
+
+    </main>
+  </body>
+</html>
