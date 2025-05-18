@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <title>Spiritrender // Hannah Kloss-Gleason</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.88.1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="John Doe" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="https://www.hannahkloss.com/css/main.min.0655c0c018a3d8c360af37fcc5a13d64dae1e12f57879d04443a6f5352ebcf81.css" />
+
+
+
+  </head>
+  <body>
+    <header class="app-header">
+      <a href="https://www.hannahkloss.com/"><img class="app-header-avatar" src="/avatar.jpg" alt="John Doe" /></a>
+      <h1>Hannah Kloss-Gleason</h1>
+      <p>Hiya! I&#39;m a fantasy writer who dedicates my free time to acting on stage. I graduated from the University at Buffalo with a Bachelor of Arts degree in Computer Science and a Certificate in Game Studies and am now pursuing a career in telling stories through video games.</p>
+      <div class="app-header-social">
+        
+          <a href="https://www.linkedin.com/in/hannah-kloss/" target="_blank" rel="noreferrer noopener">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-link">
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+</svg>
+          </a>
+        
+      </div>
+    </header>
+    <main class="app-container">
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class ="post-title">Spiritrender</h1>
+      <div class="post-meta">
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
+  <title>calendar</title>
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
+</svg>
+          May 18, 2025
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-clock">
+  <title>clock</title>
+  <circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>
+</svg>
+          15 min read
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
+  <title>tag</title>
+  <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7.01" y2="7"></line>
+</svg>
+              <a class="tag" href="https://www.hannahkloss.com/tags/blogs/">Blogs</a>
+        </div>
+      </div>
+    </header>
+    <div class="post-content">
+<p>It's that time again! From April 13th to 26th, I participated in the Gamedev.js Jam 2025, which was about making a Web Game with the theme of balance. I got to work with both new and familiar faces (shoutout to Bane of Blackmore, another fun jamming experience) on Spiritrender. With games like Phasmophobia and Demonologist as the template inspiration, I took on a Lead Programmer role to be a point of contact throughout the roughly two week-period. </p>
+
+<p>Fortunately, I have other experiences of being a go-to person for asking questions/guiding through utilizing Unreal. I've been working in the engine for over 2.5 years, with a variety of leadership positions on different forms of passion projects. As can be expected, though, there are new things that pop up within each group, with one of the biggest things being a strong line of understanding with communication.</p>
+
+<p>Before the start of the jam, I created a document consisting of expectations that the programmers (as well as anyone that would be working with anything directly in-engine) should and would uphold. Naming conventions, branches, and commit messages are the general focus of anyone who uses version control, but when it comes to Unreal and GitHub, one must be absolutely thorough lest you want to override the hours of work someone else did in a file you were also changing (which hopefully is not on the list of things you wish to do to anyone). </p>
+
+<p>Because we used blueprints, it is up to us to make sure this did not happen. There isn't an "easy" option to keep the changes multiple people made, with the closest being a person taking one version and moving the changes another version has to consolidate it all. This happened a couple times namely with the player blueprint and how many different moving pieces had to be centered around the controls the player had and the iterative changes based on development stages, but it was never something that caught anyone off-guard. Aside from anything that happened in the final 12 hours or so (I had to be moving some things out of an apartment), that responsibility fell onto me. </p>
+
+<p>I was also tasked with working out the functionality of the tools the player would be using to determine the type of spirit they were facing. If you're familiar with Phasmophobia, this would be something like the EMF reader or the spirit box, but the amazing design team came up with some original material, pulling from different inspirations that still felt familiar. (Just as an aside, the more experience I get with making games, the more I feel the need to make sure that similar mechanisms between similar games remain the same. It's nice for the player if a lot of what they have to do is intuitive, especially if they've played the "type" of game you've made before.) </p>
+
+<p>The tools that I had the joy of working on (this was the best task for me, truly) were the salt pouch, placeable book, trip wire, scrying glass, lodestone, candle, water flask, ritual knife, and pan flute. Some were more complex than others, as for the scope of the jam, not every piece of evidence would be "valid," and thus not everything would be triggerable to every extent. But each tool could be either "dropped" or "used," with varying effects on the player's sanity. </p>
+
+<p>As a brief rundown:
+<ul>
+<li> The salt pouch, when used, would create a safety sphere enveloping the player. If one of the mini monsters came in contact with the sphere, they would be killed, with the most hits the shield could take before being destroyed being three. However, if the main monster hit it, the shield would be destroyed and the enemy should be stunned for a time based on how many hits the shield had left. </li>
+<li> The book could be dropped (remain closed) or placed (open), but did not have to be developed further. </li>
+<li>The trip wire, when placed, would activate a sound when either the player or the main (dormant) monster would pass through it. In a later version of the game, in order for this to be evidence, it would be disabled instead and appear different. This was not necessary for the time being, but the start of the logic was there to check if it was valid evidence or not, which is determined at the start of the game based on the type of monster the player will be facing. </li>
+<li>The scrying glass, when in active use, will reveal hidden-to-the-plain-eye scratch marks in the area of the spirit should it be valid evidence. </li>
+<li> The lodestone, when in active use, will glow based on proximity to the dormant monster. If you are within range and it's either invalid evidence or not enough time has passed, it will glow blue. If you're within range, it's valid evidence, and enough time has passed, it will glow red instead. </li>
+<li>The candle, when placed, will emit a light. </li>
+<li> The water flask, either while in the player's hand generally or while on the ground in proximity of the monster, will change textures to show if it's cold (with a later version of the game going to a next phase of "freezing," with that making it valid evidence). This is another time-based one, modeled after the predecessor games where it generally takes some time for the ghost room to cool down. </li>
+<li> The ritual knife, when used, creates a blood orb at the player's location. You can use it multiple times, but it costs sanity to do so, thus when you are too low you cannot use it at all. The blood orb is used to attract/distract the mini monsters while it is active (it will go away after some time). </li>
+<li> The pan flute, when used, will play a tune. If the player is within a valid distance from the dormant spirit, this tune will be echoed back (when the sound was added in and I tested it, I got chills it was SO cool). </li>
+</ul>
+</p>
+
+<p>With these in mind and wanting to be efficient, I knew that I would be using some of my personal favorite pieces of Unreal. Blueprint Interfaces and a master blueprint/children blueprints are excellent, and as handy as someone may imagine when understanding what they do. Considering a few of the tools had to check for distance between themselves and the monster, I added that to the tool master/parent blueprint. And seeing as the tools wouldn't be the only thing interacted with, I made sure to make an interface that could be inherited by the same master blueprint and anything else that would need it. </p>
+
+<p> As a result, I also developed the pick up, drop, and use tool controls of the player. Picking up had started as a collision-based thing, but in the latter half of the jam was shifted to be line-trace, which in itself called for a collision profile to be made so other elements necessary for the level design didn't interfere. Using the tool was perhaps the next most complex, as it had two possible functions that were based if the tool was "placeable" or used in-hand. The placeable ones could utilize the drop functionality with extra steps, though, so it reduced some work that would've otherwise had to be redone. "Placeable in World" was a boolean on the tools to let the "use tool" input action know what it had to do, with the main thing at that point being to make sure the current held item was kept track of player-side. </p>
+
+<p>As someone who enjoys Phasmo and Demonologist, it was such an honor to be a part of making a game like them- even if it did have to be smaller-scale for time-restraint and scope purposes. I wouldn't complain with getting to develop it further at some point, or another game like it, but for the time being? It made the time between the last game jam and this one all the worth it for me. (Though hopefully I don't wait as long between Spiritrender and the next one!) </p>
+
+<p>If you want to experience it yourself, I'd definitely recommend it! If you'd like a brief glimpse though, feel free to watch the video below. The talent on the team was something else, and I'm so glad to have been invited to be a part of it. </p>
+
+<iframe
+	src="EngineeringBestPractices.pdf#toolbar=0"
+	width="100%"
+	height="400"
+	style="border:none"
+></iframe>
+      <iframe width="100%" height="400" src="https://youtu.be/ndkbHMowXmg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+  </article>
+
+    </main>
+  </body>
+</html>
