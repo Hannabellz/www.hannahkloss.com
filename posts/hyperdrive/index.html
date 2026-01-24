@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <title>Hamster Hyperdrive // Hannah Kloss-Gleason</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.88.1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="John Doe" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="https://www.hannahkloss.com/css/main.min.0655c0c018a3d8c360af37fcc5a13d64dae1e12f57879d04443a6f5352ebcf81.css" />
+
+
+
+  </head>
+  <body>
+    <header class="app-header">
+      <a href="https://www.hannahkloss.com/"><img class="app-header-avatar" src="/avatar.jpg" alt="John Doe" /></a>
+      <h1>Hannah Kloss-Gleason</h1>
+      <p>Hiya! I&#39;m a fantasy writer who dedicates my free time to acting on stage. I graduated from the University at Buffalo with a Bachelor of Arts degree in Computer Science and a Certificate in Game Studies and am now pursuing a career in telling stories through video games.</p>
+      <div class="app-header-social">
+        
+          <a href="https://www.linkedin.com/in/hannah-kloss/" target="_blank" rel="noreferrer noopener">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-link">
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+</svg>
+          </a>
+        
+      </div>
+    </header>
+    <main class="app-container">
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class ="post-title">Hamster Hyperdrive</h1>
+      <div class="post-meta">
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
+  <title>calendar</title>
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
+</svg>
+          January 24, 2026
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-clock">
+  <title>clock</title>
+  <circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>
+</svg>
+          10 min read
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
+  <title>tag</title>
+  <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7.01" y2="7"></line>
+</svg>
+              <a class="tag" href="https://www.hannahkloss.com/tags/blogs/">Blogs</a>
+        </div>
+      </div>
+    </header>
+    <div class="post-content">
+<p>Back in late July early August, I participated in the GMTK2025 game jam with 21 other incredible people. The theme was loops, and after some ideating we landed on taking a bit of inspiration from the likes of Pokémon Ranger, Snake, and Sonic Frontiers. You would control the player using your mouse, with the distance of the cursor from where the player is positioned would influence how fast you went. Your goal? Defeat the enemy by looping around them, each wave introducing a new challenge to try to cease the hamster wheel of internet memes.</p>
+
+<p> I was gifted the opportunity of being Lead Engineer on this super silly and super incredible game. And though I was also in a local theater's musical at the time, I spent a couple of late nights (the kind that you stay up past 4AM) in hopes of refining this to the best possible point by the time submissions had to be made. This wasn't alone, of course, as I feel game jams bring out this type of energy in many if not all participants. Answering questions and trouble-shooting at 6AM is certainly an experience, but it's these kind of experiences that get me to encourage people to participate in at least one jam. If you're able to find people with a similar (hyper)drive as you, it's remarkable what lengths you are capable of reaching as a group. Out of over 9000 submissions, Hamster Hyperdrive peaked at the 22nd most popular and maintained a standing in the top forty which...it still feels a bit surreal to be able to say that. </p>
+
+<p>Aside from handling pull requests and merges on the GitHub side of things and diving deep into the Epic Developer Community Forums, I worked on 
+<ul>
+<li> the Start Screen (where better for the user experience to begin?) </li>
+<li> the special attack charge - after a wave was completed, there would be a bar added for a usable special attack. I needed to make sure that the UI properly displayed these charges and that they increased and decreased properly. Decreasing when the max amount existed was the simplest, since it would always deplete the charge of the amount of a single bar. But the pickups wouldn't replenish this special attack completely, so if someone had what was essentially 2.75/3 bars of a charge, I would need to update both the first and second bars. </li>
+<li> cutscene dialogue - if you've seen my posts about other projects I've done, you know that THIS is my jam. I love data tables and they love me (I'd like to think, anyway). I was in charge of putting in the dialogue, making sure that pausing while the dialogue occurred didn't spike any strangeness, and adding in event dispatchers so the other moving pieces could know when dialogue started and ended. (We wouldn't want to give the Malwars the upper-hand and allow them the space to use the horrid tactic of attacking while the player's subjected to...being frozen during lore drops)</li>
+<li> win and loss screens (where better for the user experience to end?)</li>
+<li> bug fixes that popped up along the way and replacing placeholders with the proper meshes and textures</li>
+</ul>
+</p>
+      <p>Even through the trials and tribulations of tracking down the "whys" of how things work and the "quick fixes" when using source control goes sideways, the hindsight has me looking back and smiling at the incredible feats made in less than a week of work. Was it perfect with each playtest we did? Of course not! But if game jams were all about perfection, I can promise you no one would dare submit a thing, much less ask people to play while it's still in development. It's something I'm still learning the importance of more and more each day, nearly half a year later. If I get so caught up in wanting something perfect before I put it out for others to see, partake in, enjoy...The fear of it being any less will trap me with stunted progress and growth. It doesn't have to be exactly right to be perceived by others' eyes. It's okay to not know what's best right away, and it's fine if it takes a multitude of ideas until you land on the one that sticks.</p>
+      <p>I have a couple different things in the works that involve a world that has existed in my head since my junior year at college, some of them utilizing Unreal, others just a word document...And maybe, just maybe, this reminder and reflection will permit me to put a version of them out, even if they just start as rough drafts. Creativity, to me, is among best company when done collaboratively. Of course this doesn't mean to strictly work under the influence of peers and expectations, but to be able to take crticism and encourage a space to brainstorm so that the proper fuel forward can be deciphered and selected from the array of possibilities.</p>
+      <iframe width="100%" height="400" src="https://www.youtube.com/embed/zJ2AOiz_e6M" title="Hamster Hyperdrive Trailer - Now available on Itch.io" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+  </article>
+
+    </main>
+  </body>
+</html>
